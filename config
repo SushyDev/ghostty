@@ -4,3 +4,4 @@ theme = Github Dark
 font-thicken
 background=#000000
 macos-option-as-alt=true
+confirm-close-surface = false
