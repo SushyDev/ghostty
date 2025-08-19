@@ -1,7 +1,33 @@
 font-family = "Fira Code"
+
+#font-family = "Monocraft"
+#adjust-cell-height=1
+
 font-size = 12
 theme = Github Dark
 font-thicken
 background=#000000
 macos-option-as-alt=true
 confirm-close-surface = false
+
+# Disable creating new splits
+keybind = super+shift+d=ignore
+keybind = super+d=ignore
+
+# Disable navigating between splits
+keybind = super+alt+up=ignore
+keybind = super+alt+down=ignore
+keybind = super+alt+right=ignore
+keybind = super+alt+left=ignore
+keybind = super+left_bracket=ignore
+keybind = super+right_bracket=ignore
+
+# Disable resizing splits
+keybind = super+ctrl+up=ignore
+keybind = super+ctrl+down=ignore
+keybind = super+ctrl+right=ignore
+keybind = super+ctrl+left=ignore
+
+# Disable other split management features
+keybind = super+ctrl+equal=ignore
+keybind = super+shift+enter=ignore
